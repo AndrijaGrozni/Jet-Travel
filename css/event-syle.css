@@ -1,0 +1,308 @@
+
+.hero-event {
+    position: relative;
+    z-index: 2;
+    height: 100vh;
+    background-image: url('../jet-event/images/event-hero.jpg');
+    background-position: 50% 50%;
+    background-size: cover;
+    color: #fff;
+}
+.logo.event {
+    margin-top: 0px;
+}
+.hero-box.adventure {
+    margin-top: 25px;
+}
+.footer-section.event {
+    background-image: url('../jet-event/images/event-footer.jpg');
+    background-position: 50% 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+}
+.footer-section.corporate a {
+    color: #646464;
+}
+/* SECTION 2 */
+.event-section-2 {
+    width: 100%;
+    position: relative;
+    height: 575px;
+    padding: 5% 10%;
+    color: #646464;
+    background-image: url('../jet-event/images/event-waiter.png');
+    background-position: 50% 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.event-section-2 h1 {
+    margin-bottom: 40px;
+    font-size: 34px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 400;
+    text-align: left;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+    width: 50%;
+    color: #b11049;
+}
+.event-section-2 p {
+    max-width: 60%;
+    letter-spacing: 1px;
+    float: left;
+    margin-bottom: 30px;
+}
+.event-section-2 a {
+    color: #646464;
+    float: left;
+    width: 50%;
+    font-size: 22px;
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+.event-section-2 a:hover {
+    font-size: 24px;
+    color: #b11049;
+}
+/* SECTION 3 */
+.event-section-3 {
+    width: 100%;
+    position: relative;
+    color: #646464;
+    background: white;
+    padding: 0 5%;
+}
+.event-heading {
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Josefin Sans', sans-serif;
+    letter-spacing: 10px;
+    margin-bottom: 30px;
+    color: #b11049;
+}
+.card-box {
+    height: auto;
+    background: white;
+    width: 100%;
+    margin-bottom: 50px;
+    -webkit-box-shadow: 2px 2px 8px;
+            box-shadow: 2px 2px 8px;
+}
+.card-tittle {
+    height: 188px;
+    width: 100%;
+    background-image: url('../jet-corporate/images/card1.jpg');
+    background-position: 50% 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 8px;
+}
+.card-description {
+    padding: 15px;
+    text-align: justify;
+}
+.card-tittle.card1-event {background-image: url('../jet-event/images/1.jpg');}
+.card-tittle.card2-event {background-image: url('../jet-event/images/2.jpg');}
+.card-tittle.card3-event {background-image: url('../jet-event/images/3.jpg');}
+.card-tittle.card4-event {background-image: url('../jet-event/images/4.jpg');}
+.card-tittle.card5-event {background-image: url('../jet-event/images/5.jpg');}
+.card-tittle.card6-event {background-image: url('../jet-event/images/6.jpg');}
+.card-tittle.card7-event {background-image: url('../jet-event/images/7.jpg');}
+.card-tittle.card8-event {background-image: url('../jet-event/images/8.jpg');}
+.card-tittle.card9-event {background-image: url('../jet-event/images/9.jpg');}
+.event-link {
+    color: black;
+    font-size: 28px;
+    margin-top: 150px;
+    display: block;
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+.event-link:hover {
+    font-size: 30px;
+    color: #b11049;
+}
+/* SECTION 4 */
+.event-section-4 {
+    height: 675px;
+    background: white;
+    background-image: url('../jet-event/images/event-meeting.jpg');
+    background-position: 50% 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding: 10%;
+    color: white;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+.event-section-4 h1 {
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 38px;
+}
+.event-section-4 p {
+    letter-spacing: 1px;
+    max-width: 1000px;
+    margin-bottom: 30px;
+    margin-top: 15px;
+}
+.event-section-4 a {
+    font-size: 22px;
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+.event-section-4 a:hover {
+    font-size: 24px;
+    color: white;
+}
+/* SECTION 5 */
+.corporate-section-5 {
+    height: 500px;
+    color: #646464;
+}
+.corporate-section-5 h1 {
+    text-align: center;
+    letter-spacing: 8px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.manager-icon {
+    width: 210px;
+    height: 210px;
+    background-position: 50% 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    position: relative;
+    margin: 0 auto;
+}
+.manager-icon:hover .manager-overlay {
+    opacity: 0.8;
+}
+.manager-icon.man-1 {
+    background-image: url('../images/team1.jpg');
+}
+.manager-icon.man-2 {
+    background-image: url('../images/team2.jpg');
+}
+.manager-icon.man-3 {
+    background-image: url('../images/team3.jpg');
+}
+.manager-icon.man-4 {
+    background-image: url('../images/team4.jpg');
+}
+.manager-overlay {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background: #324279;
+    opacity: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-transition: all 0.8s ease;
+    transition: all 0.8s ease;
+}
+.manager-overlay p {
+    color: white;
+    font-size: 13px;
+    text-transform: uppercase;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 700;
+}
+.manager-name {
+    font-family: 'Josefin Sans', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 8px;
+    line-height: 1.3;
+    margin-bottom: 0;
+}
+.manager-tittle {
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+/* SECTION 6 */
+.event-section-6 {
+    width: 100%;
+    height: 675px;
+    position: relative;
+    background-image: url('../jet-event/images/event-hall.jpg');
+    background-position: 50% 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+.event-section-6 h1 {
+    font-family: 'Josefin Sans', sans-serif;
+    letter-spacing: 2px;
+    font-size: 88px;
+    text-shadow: 2px 2px 2px black;
+    margin-bottom: 20px;
+}
+.event-section-6 a {
+    font-size: 32px;
+    text-shadow: 2px 2px 2px black;
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+
+}
+.event-section-6 a:hover {
+    font-size: 34px;
+    color: white;
+}
+/* FOOTER */
+.footer-side.event {
+    margin-top: 50px;
+}
+.footer-menu-1.event {
+    border-bottom: 1px solid white;
+}

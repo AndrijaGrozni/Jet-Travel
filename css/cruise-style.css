@@ -1,0 +1,451 @@
+
+.hero-cruise {
+    position: relative;
+    z-index: 2;
+    height: 100vh;
+    background-image: url('../jet-cruise/images/cruise-hero.jpg');
+    background-position: 50% 50%;
+    background-size: cover;
+    color: #fff;
+}
+.logo.cruise {
+    margin-top: -20px;
+}
+.hero-box.cruise {
+    margin-top: -65px;
+    font-size: 20px;
+}
+.hero-box.cruise h1 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 32px;
+}
+.footer-section.cruise {
+    background-image: url('../jet-cruise/images/jet_cruise_layout_v1_29.jpg');
+    background-position: 50% 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+}
+.footer-section.cruise a {
+    color: white;
+}
+/* SECTION 2 */
+.cruise-section-2 {
+    width: 100%;
+    position: relative;
+    height: 440px;
+    padding: 5% 15%;
+    color: black;
+}
+.cruise-section-2 h1 {
+    margin-bottom: 40px;
+    font-size: 44px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 400;
+    text-align: left;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+    width: 50%;
+    z-index: 5;
+}
+.cruise-section-2 p {
+    max-width: 50%;
+    letter-spacing: 1px;
+    float: left;
+    margin-bottom: 30px;
+    font-size: 20px;
+}
+.cruise-section-2 img {
+    float: right;
+    margin-top: -250px;
+}
+.cruise-section-2 a {
+    color: #289cbf;
+    float: left;
+    width: 100%;
+    font-size: 22px;
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+.cruise-section-2 a:hover {
+    font-size: 24px;
+}
+.img-wave {
+    position: absolute;
+    top: 340px;
+    left: 280px;
+    z-index: -1;
+}
+/* SECTION 3 */
+.cruise-section-3 {
+    width: 100%;
+    height: 600px;
+    position: relative;
+    color: white;
+    background: white;
+    padding: 0 5%;
+    background-image: url('../jet-cruise/images/cruise-ship.png');
+    background-position: 50% 50%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+}
+.cruise-section-3 h1 {
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.cruise-section-3 p {
+    letter-spacing: 1px;
+    max-width: 710px;
+    margin-bottom: 30px;
+    margin-top: 15px;
+    text-align: right;
+}
+.cruise-section-3 a {
+    font-size: 22px;
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+    color: white;
+}
+.cruise-section-3 a:hover {
+    font-size: 24px;
+}
+/* SECTION 4 */
+.cruise-section-4 {
+    background: white;
+    padding: 5% 10%;
+    color: white;
+    width: 100%;
+    position: relative;
+}
+.cruise-section-4 img {
+    position: relative;
+    max-width: 100%;
+    border-radius: 10px;
+    -webkit-box-shadow: 2px 2px 8px black;
+            box-shadow: 2px 2px 8px black;
+}
+.cruise-section-4-info {
+    color: black;
+    margin: -20px 0;
+    padding: 0 40px;
+    position: relative;
+}
+.cruise-section-4 h1 {
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.cruise-section-4 h3 {
+    font-family: 'Josefin Sans', sans-serif;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+.cruise-section-4 p {
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+.cruise-section-4 a {
+    font-size: 22px;
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+    color: #289cbf;
+    position: absolute;
+}
+.cruise-section-4 a:hover {
+    font-size: 24px;
+}
+img.no-shadow {
+    border-radius: 0;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+}
+.date {
+    position: absolute;
+    top: 40px;
+    right: 50px;
+}
+.date span {
+    float: left;
+    font-size: 28px;
+    color: #289cbf;
+    margin: 0 5px;
+}
+.date p {
+    font-size: 50px;
+    margin: 10px 0;
+}
+.date span .year-date {
+    font-size: 20px;
+    margin-top: 5px;
+}
+.date span.divider {
+    margin-top: 30px;
+
+}
+.destination-box {
+    border-radius: 10px;
+    -webkit-box-shadow: 2px 2px 8px black;
+            box-shadow: 2px 2px 8px black;
+    position: relative;
+}
+.destination-box h4 {
+    font-family: 'Playfair Display', sans-serif;
+}
+.destination-box h1 {
+    margin-bottom: 0;
+}
+.destination-header {
+    height: 100px;
+    color: black;
+    height: auto;
+    position: relative;
+    padding: 5px 20px;
+}
+.destination-header .date {
+    top: 25px;
+    right: 25px;
+}
+.destination-image {
+    width: 100%;
+    height: 255px;
+    background-image: url('../jet-cruise/images/cruise5.jpg');
+    background-position: 50% 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.destination-footer {
+    color: black;
+    padding: 5px 20px;
+    position: relative;
+}
+.destination-footer p {
+    z-index: 3;
+}
+.destination-footer .see-more {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    border-radius: 0 0 10px;
+    z-index: 2;
+}
+/* SECTION 5 */
+.cruise-section-5 {
+    width: 100%;
+    height: 80vh;
+    position: relative;
+    color: white;
+    background: white;
+    padding: 0 15%;
+    background-image: url('../jet-cruise/images/jet_cruise_layout_v1_27.jpg');
+    background-position: 50% 50%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+}
+.cruise-section-5 h1 {
+    text-transform: uppercase;
+    letter-spacing: 25px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 58px;
+}
+.cruise-section-5 h3 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 38px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.cruise-section-5 a {
+    font-size: 26px;
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+    color: white;
+    margin-top: 15px;
+}
+.cruise-section-5 a:hover {
+    font-size: 28px;
+}
+/* SECTION 6 */
+.adventure-section-6 {
+    height: 500px;
+    color: #646464;
+}
+.adventure-section-6 h1 {
+    text-align: center;
+    letter-spacing: 8px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.manager-icon {
+    width: 210px;
+    height: 210px;
+    background-position: 50% 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    position: relative;
+    margin: 0 auto;
+}
+.manager-icon:hover .manager-overlay {
+    opacity: 0.8;
+}
+.manager-icon.man-1 {
+    background-image: url('../images/team1.jpg');
+}
+.manager-icon.man-2 {
+    background-image: url('../images/team2.jpg');
+}
+.manager-icon.man-3 {
+    background-image: url('../images/team3.jpg');
+}
+.manager-icon.man-4 {
+    background-image: url('../images/team4.jpg');
+}
+.manager-overlay {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background: #324279;
+    opacity: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-transition: all 0.8s ease;
+    transition: all 0.8s ease;
+}
+.manager-overlay p {
+    color: white;
+    font-size: 13px;
+    text-transform: uppercase;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 700;
+}
+.manager-name {
+    font-family: 'Josefin Sans', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 8px;
+    line-height: 1.3;
+    margin-bottom: 0;
+}
+.manager-tittle {
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+/* SECTION 7 */
+.cruise-section-7 {
+    width: 100%;
+    height: 80vh;
+    position: relative;
+    color: white;
+    background: white;
+    padding: 0 15%;
+    background-image: url('../jet-cruise/images/cruise-glass.png');
+    background-position: 50% 50%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+}
+.cruise-section-7 h1 {
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 48px;
+}
+.cruise-section-7 h3 {
+    font-family: 'Playfair Display', sans-serif;
+    font-size: 24px;
+    margin-left: 20px;
+    margin-top: 10px;
+    text-align: center;
+    max-width: 1000px;
+}
+.cruise-section-7 a {
+    font-size: 28px;
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+    color: white;
+    margin-top: 15px;
+    font-family: 'Josefin Sans', sans-serif;
+
+}
+.cruise-section-7 a:hover {
+    font-size: 30px;
+}
+/* SECTION 8 */
+.cruise-section-8 {
+    width: 100%;
+    height: 230px;
+    background: white;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+}
+.cruise-section-8 img {
+    margin: 0 50px;
+}
+/* FOOTER */
+.footer-side.cruise {
+    margin-bottom: -220px;
+}
+.footer-menu-1.cruise {
+    border-bottom: 1px solid white;
+}
